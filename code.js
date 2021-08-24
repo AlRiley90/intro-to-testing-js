@@ -41,3 +41,11 @@ function isEven(input) {
     } else
         return false;
 }
+
+function isVowel(input) {
+    if (input == 'a' || input == 'A' || input == 'e' || input =='E' || input == 'i' || input == 'I' || input == 'o' || input == 'O' || input == 'u' || input =='U') {
+        return true;
+    } else {
+        return false;
+    }
+}
