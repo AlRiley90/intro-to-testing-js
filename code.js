@@ -49,3 +49,13 @@ function isVowel(input) {
         return false;
     }
 }
+
+function add(x, y) {
+    var num1 = parseInt(x);
+    var num2 = parseInt(y);
+    var sum = num1 + num2;
+    if(isNaN(sum)){
+        return NaN;
+    }
+    return sum;
+}
