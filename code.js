@@ -26,3 +26,10 @@ function sayHello(input){
     return "Hello, " + input + "!";
 }
 //Ask about input being a number, how to write that
+
+function isFive(input){
+if(input == 5){
+    return true;
+}else
+    return false;
+}
